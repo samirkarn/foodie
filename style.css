@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.menu-bar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+
+.background {
+    background-image: url(images/bg5.jpg);
+    background-size: cover;
+}
+
+.menu-left {
+    float: left;
+    width: 20%;
+}
+
+.menu-logo img{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.menu-left ul {
+    float: left;
+    display: flex;
+    margin: auto;
+    padding: 11px 58px;
+    list-style-type: none;
+}
+
+.menu-left ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.logo-text {
+    padding: 14px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu-middle {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+.menu-middle ul {
+    display: flex;
+}
+
+.menu-middle ul li {
+    margin: 16px;
+    list-style: none;
+    font-size: 21px;
+}
+
+.menu-middle ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-middle ul li a:hover {
+    text-decoration: underline yellowgreen;
+}
+
+.menu-middle ul li a:active {
+    color: yellowgreen;
+}
+
+.menu-right {
+    float: right;
+    width: 30%;       
+}
+
+.menu-right ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px 0px 0px;
+}
+
+.menu-right input {
+    width: 150px;
+    height: 27px;
+    border-radius: 10px;
+}
+
+.menu-right button {
+    color: white;
+    font-size: 14px;
+    border-radius: 10%;
+    margin: 3px 6px;
+    background-color: cadetblue;
+    width: 74px;
+    height: 24px;
+}
+
+.menu-right button:hover {
+    color: ghostwhite;
+    background-color: black;
+
+}
+
+.menu-right button:active {
+    background-color: blueviolet;
+
+}
+
+.menu-right .login {
+    margin: 3px 6px;
+    list-style: none;
+    font-size: 21px;
+}
+
+.menu-right .login a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-right .login a:hover {
+    text-decoration: underline yellowgreen;
+}
+
+.menu-right .login a:active {
+    color: yellowgreen;
+}
+/* Navbar End */
+
+.slogan-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.slogan {
+    padding: 250px 0 0 467px;;   
+}
+
+.slogan h1 {
+    font-size: 37px;
+    color: rgb(113, 212, 230);;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.slogan-btn button {
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: chocolate;
+    margin: 10px;
+}
+
+.slogan-btn button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.slogan-btn button:hover {
+    background-color: coral;
+}
+
+.slogan-btn button:active {
+    background-color: aqua;
+}
+
+/* about css */
+
+.about-text {
+    width: 100%;
+    height: 100px;
+}
+
+.about-text h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px    
+}
+
+.about-text p {
+    text-align: justify;
+    margin: 16px 175px;
+    font-size: 20px;
+}
+
+.about-text hr {
+    width: 350px;
+    border: 2px solid chocolate;
+    margin: auto
+}
+
+.about-flex {
+    display: flex;
+    margin: 100px 30px;
+    width: 100%;
+}
+
+.about-box {
+    width: 20%;
+    margin: 20px;
+    border: 5px solid rgb(235, 88, 103);
+    background-color: rgb(235, 88, 103);
+    box-shadow: 5px 5px;
+    height: 218px;
+}
+
+.about-box h1 {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.about-box p {
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    margin: 15px;
+}
+
+/* our recipies */
+.recipies-text {
+    width: 100%;
+}
+
+.recipies-text h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px    
+}
+
+.recipies-text p {
+    text-align: justify;
+    margin: 1px 255px;
+    font-size: 20px;
+    padding-left: 210px;
+}
+
+.recipies-text hr {
+    width: 100px;
+    border: 2px solid chocolate;
+    margin: auto
+}
+
+.recipies-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px 30px;
+    width: 100%;
+}
+
+.recipies-box {
+    width: 25%;
+    margin: 20px;
+    box-shadow: 5px 5px 45px darkslategrey;
+    height: 400px;
+    border-radius: 5%;
+    margin-left: 57px;
+    background-color: azure;
+}
+.recipies-box img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5%;
+
+}
+.recipies-box h1 {
+    text-align: center;
+}
+
+.recipies-box h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.recipies-box a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Reviews CSS*/
+.reviews-text h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 35px    
+}
+
+.reviews-text p {
+    text-align: justify;
+    margin: 1px 250px;
+    font-size: 20px;
+    padding-left: 275px;
+}
+
+.reviews-text hr {
+    width: 380px;
+    border: 2px solid chocolate;
+    margin: auto
+}
+
+.reviews-flex {
+    display: flex;
+    margin: 70px 30px;
+    width: 100%;
+}
+
+.reviews-box {
+    width: 25%;
+    margin: 20px;
+    height: 400px;
+    margin-left: 57px;
+}
+
+.reviews-people {
+    display: flex;
+}
+
+.reviews-people img {
+    width: 60px;
+    height: 60px;
+    border-radius: 32px;
+    margin: 10px;
+}
+
+.reviews-box p {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.reviews-box h1 {
+    margin: 24px 0px;
+    font-size: 20px;
+}
+
+.reviews-box span {
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+/* Contact us CSS*/
+.contact-container {
+    width: 100%;
+    height: 600px;
+    background-color: antiquewhite;
+    margin: -124px 0px;
+}
+
+.contact-flex {
+    display: flex;
+    margin-left: 150px;
+    padding-left: 40px;
+}
+
+.left-form, .right-form {
+    width: 35%;
+    height: 395px;
+    box-shadow: 35px 2px 65px grey;
+    margin: 100px 40px;
+}
+
+.left-form h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.right-form h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+ 
+form input {
+    width: 80%;
+    margin: 10px;
+    margin-left: 40px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form button {
+    width: 75px;
+    margin: 10px;
+    margin-left: 160px;
+    background-color: darkcyan;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+form button:hover {
+    opacity: 0.7;
+}
+
+.left-form hr {
+    width: 100px;
+    border: 2px solid chocolate;
+    margin: 10px 145px;  
+}
+
+
+
+.left-form h4 {
+    text-align: center;
+    margin-right: 18px;
+}
+.fevicon-icon {
+    margin-left: 65px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    height: 20px;
+    border-radius: 20px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /* Footer CSS */
+  footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 124px;
+}
+
+.footer-menu-list {
+    padding: 16px;
+}
+.footer-menu-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer li a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline yellowgreen;
+}
+
+.footer ul li a:active {
+    color: yellowgreen;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+footer p a {
+    text-decoration: none;
+    color: pink;
+}
